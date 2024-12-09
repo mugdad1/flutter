@@ -25,8 +25,10 @@ class MyApp extends StatelessWidget {
                 color: Colors.blue,
                 height: 50,
                 width: 50,
-                child: Center( // Centering the text
-                  child: Padding( // Adding padding around the text
+                child: Center(
+                  // Centering the text
+                  child: Padding(
+                    // Adding padding around the text
                     padding: EdgeInsets.all(1), // Padding around the text
                     child: const Text(
                       "Can't see me",
@@ -39,13 +41,16 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.only(bottom: 30), // Margin for red container
+                margin: const EdgeInsets.only(
+                    bottom: 30), // Margin for red container
                 color: Colors.red,
                 height: 100, // Height for better visibility
                 width: 100, // Width for better visibility
                 padding: EdgeInsets.all(1), // Padding inside the red container
-                child: Center( // Centering the text
-                  child: Padding( // Adding padding around the text
+                child: Center(
+                  // Centering the text
+                  child: Padding(
+                    // Adding padding around the text
                     padding: EdgeInsets.all(1), // Padding around the text
                     child: const Text(
                       "Mid box",
@@ -63,8 +68,10 @@ class MyApp extends StatelessWidget {
                 height: 200,
                 width: 200,
                 padding: EdgeInsets.all(1),
-                child: Center( // Centering the text
-                  child: Padding( // Adding padding around the text
+                child: Center(
+                  // Centering the text
+                  child: Padding(
+                    // Adding padding around the text
                     padding: EdgeInsets.all(1), // Padding around the text
                     child: const Text(
                       "Big box",
@@ -77,13 +84,17 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.symmetric(vertical: 30), // Margin for yellow container
+                margin: const EdgeInsets.symmetric(
+                    vertical: 30), // Margin for yellow container
                 color: Colors.yellow,
                 height: 300,
                 width: 300,
-                child: Center( // Centering the text
-                  child: Padding( // Adding padding around the text
-                    padding: EdgeInsets.all(paddingValue), // Padding around the text
+                child: Center(
+                  // Centering the text
+                  child: Padding(
+                    // Adding padding around the text
+                    padding:
+                        EdgeInsets.all(paddingValue), // Padding around the text
                     child: const Text(
                       "Huge box",
                       style: TextStyle(
